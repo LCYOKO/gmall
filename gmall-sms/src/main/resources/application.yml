@@ -1,0 +1,7 @@
+
+spring:
+  datasource:
+    password: 3852159
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://175.24.47.171:3306/gmall_sms?useUnicode=true&useSSL=false&characterEncoding=utf8

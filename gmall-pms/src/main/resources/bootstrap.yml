@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: gmall-pms
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.109.1:8848
+        file-extension: yml
+  profiles:
+    active: dev
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:xml/*.xml

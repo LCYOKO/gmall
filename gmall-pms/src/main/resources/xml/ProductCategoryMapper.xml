@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiaomi.gmall.pms.mapper.ProductCategoryMapper">
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, parent_id, name, level, product_count, product_unit, nav_status, show_status, sort, icon, keywords, description
+    </sql>
+
+    <resultMap id="BaseMap" type="com.xiaomi.gmall.pms.entity.ProductCategory">
+       <result property="id" column="id"></result>
+       <result property="parentId" column="parent_id"></result>
+        <result property="name" column="name"></result>
+        <result property="level" column="level"></result>
+        <result property="productCount" column="product_count"></result>
+        <result property="productUnit" column="product_unit"></result>
+        <result property="navStatus" column="nav_status"></result>
+        <result property="showStatus" column="show_status"></result>
+        <result property="sort" column="sort"></result>
+        <result property="icon" column="icon"></result>
+        <result property="keywords" column="keywords"></result>
+        <result property="description" column="description"></result>
+    </resultMap>
+    <resultMap id="WithChildren" type="com.xiaomi.gmall.pms.entity.ProductCategory" extends="BaseMap">
+        <collection property="children" column="id" select="selWithChildren"></collection>
+    </resultMap>
+    <select id="selWithChildren" resultMap="WithChildren">
+          select
+          <include refid="Base_Column_List"></include>
+          from pms_product_category where parent_id=#{id}
+    </select>
+
+</mapper>
