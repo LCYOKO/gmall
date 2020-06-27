@@ -13,4 +13,6 @@ dubbo:
     address: spring-cloud://localhost
   cloud:
     subscribed-services: gmall-ums
+  consumer:
+    check: false
 

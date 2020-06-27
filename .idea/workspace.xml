@@ -2,113 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8c821b3-c624-454c-b744-82bd19baffbb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/config/ExceptionHandlerPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/config/GmallSwagger2Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/pms/controller/PmsBrandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/pms/controller/PmsProductAttributeCategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/pms/controller/PmsProductAttributeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/pms/controller/PmsProductCategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/pms/controller/PmsProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/pms/entity/PmsBrandParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/pms/entity/PmsProductAttributeCategoryItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/pms/entity/PmsProductAttributeParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/pms/entity/PmsProductCategoryParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/pms/entity/PmsProductResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/pms/entity/ProductAttrInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/ums/controller/UmsAdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/ums/controller/UmsMemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/ums/entity/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/ums/entity/UmsAdminLoginParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/ums/entity/UmsAdminParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/utils/JwtTokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-web/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/AdminLoginLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/AdminPermissionRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/AdminRoleRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/GrowthChangeHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/IntegrationChangeHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/IntegrationConsumeSetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/MemberLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/MemberLoginLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/MemberMemberTagRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/MemberProductCategoryRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/MemberReceiveAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/MemberRuleSetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/MemberStatisticsInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/MemberTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/MemberTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/RolePermissionRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/entity/to/AdminTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/AdminLoginLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/AdminPermissionRelationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/AdminRoleRelationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/GrowthChangeHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/IntegrationChangeHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/IntegrationConsumeSettingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/MemberLevelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/MemberLoginLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/MemberMemberTagRelationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/MemberProductCategoryRelationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/MemberReceiveAddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/MemberRuleSettingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/MemberStatisticsInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/MemberTagService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/MemberTaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/PermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/RolePermissionRelationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/xiaomi/ums/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/src/main/java/com/xiaomi/common/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/src/main/java/com/xiaomi/common/PageInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/src/main/java/com/xiaomi/common/constant/SysConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/src/main/java/com/xiaomi/common/es/EsProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/src/main/java/com/xiaomi/common/es/EsProductAttributeValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/src/main/java/com/xiaomi/common/es/SearchParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/src/main/java/com/xiaomi/common/es/SearchResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/src/main/java/com/xiaomi/common/es/SearchResponseAttrVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/src/main/java/com/xiaomi/common/pms/PmsProductQueryParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-oms/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-oms/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-oms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-oms/src/main/java/com/xiaomi/gmall/oms/GmallOmsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-oms/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-oms/src/test/java/com/xiaomi/gmall/oms/GmallOmsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-parent.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-pms/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-pms/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-pms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/xiaomi/gmall/pms/GmallPmsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/xiaomi/gmall/pms/config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/xiaomi/gmall/pms/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-pms/src/test/java/com/xiaomi/gmall/pms/GmallPmsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-sms/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-sms/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-sms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-sms/src/main/java/com/xiaomi/gmall/sms/GmallSmsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-sms/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-sms/src/test/java/com/xiaomi/gmall/sms/GmallSmsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-ums/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-ums/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-ums/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/xiaomi/gmall/ums/GmallUmsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-ums/src/test/java/com/xiaomi/gmall/ums/GmallUmsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-web/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-ums/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -155,17 +51,8 @@
       <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin-web/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminWebApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin-web/src/test/java/com/xiaomi/adminweb/AdminWebApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="114">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -173,17 +60,8 @@
       <file leaf-file-name="AdminWebApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/AdminWebApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UmsAdminLoginParam.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/ums/entity/UmsAdminLoginParam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="103">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -191,11 +69,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UmsAdminController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdminServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gmall-ums/src/main/java/com/xiaomi/gmall/ums/service/impl/AdminServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GmallUmsApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gmall-ums/src/test/java/com/xiaomi/gmall/ums/GmallUmsApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GmallUmsApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gmall-ums/src/main/java/com/xiaomi/gmall/ums/GmallUmsApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UmsAdminController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/ums/controller/UmsAdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="77">
+              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -212,11 +126,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin-web/pom.xml">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gmall-ums/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gmall-ums/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+            <state relative-caret-position="152">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -282,7 +201,6 @@
         <option value="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/ums/controller/UmsMemberController.java" />
         <option value="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/AdminWebApplication.java" />
         <option value="$PROJECT_DIR$/admin-web/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/admin-web/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/admin/src/main/java/com/xiaomi/ums/entity/UmsAdminLoginParam.java" />
         <option value="$PROJECT_DIR$/admin/src/main/resources/bootstrap.yml" />
@@ -292,6 +210,7 @@
         <option value="$PROJECT_DIR$/admin/pom.xml" />
         <option value="$PROJECT_DIR$/admin-web/pom.xml" />
         <option value="$PROJECT_DIR$/admin-web/src/test/java/com/xiaomi/adminweb/AdminWebApplicationTests.java" />
+        <option value="$PROJECT_DIR$/admin-web/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/ums/controller/UmsAdminController.java" />
       </list>
     </option>
@@ -517,7 +436,7 @@
     </option>
     <option name="contentProportion" value="0.25051335" />
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminWebApplication (1)">
+  <component name="RunManager" selected="Spring Boot.GmallUmsApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -703,7 +622,7 @@
       <workItem from="1586088159559" duration="631000" />
       <workItem from="1593170501070" duration="3546000" />
       <workItem from="1593239637065" duration="6467000" />
-      <workItem from="1593259518768" duration="5188000" />
+      <workItem from="1593259518768" duration="8082000" />
     </task>
     <servers />
   </component>
@@ -740,7 +659,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105705000" />
+    <option name="totallyTimeSpent" value="108599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -763,13 +682,13 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32952926" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49597856" visible="true" weight="0.35092723" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49597856" visible="true" weight="0.5763195" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.41737893" />
       <window_info anchor="right" id="leetcode" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.40798858" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32952926" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29758713" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32952926" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29758713" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.3297587" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -793,26 +712,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gmall-ums/src/main/java/com/xiaomi/gmall/ums/service/impl/MemberReceiveAddressServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-ums/src/main/java/com/xiaomi/gmall/ums/service/impl/MemberProductCategoryRelationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gmall-ums/src/main/java/com/xiaomi/gmall/ums/service/impl/MemberMemberTagRelationServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -938,16 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-ums/src/main/java/com/xiaomi/gmall/ums/service/impl/AdminServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gmall-ums/target/classes/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1035,16 +924,6 @@
     <entry file="file://$PROJECT_DIR$/gmall-parent.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-ums/src/main/java/com/xiaomi/gmall/ums/GmallUmsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin-web/target/classes/com/xiaomi/admin/web/config/GmallSwagger2Config.class">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1086,20 +965,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gmall-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-ums/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1147,13 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-ums/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-290">
-          <caret line="43" column="21" selection-start-line="28" selection-start-column="6" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1168,20 +1026,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin-web/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin-web/src/test/java/com/xiaomi/adminweb/AdminWebApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/AdminWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1195,20 +1043,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-ums/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-290">
+          <caret line="43" column="21" selection-start-line="28" selection-start-column="6" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-ums/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin-web/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="114">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-ums/src/test/java/com/xiaomi/gmall/ums/GmallUmsApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/AdminWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-ums/src/main/java/com/xiaomi/gmall/ums/GmallUmsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin-web/src/main/java/com/xiaomi/admin/web/ums/controller/UmsAdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="77">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-ums/src/main/java/com/xiaomi/gmall/ums/service/impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-ums/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
