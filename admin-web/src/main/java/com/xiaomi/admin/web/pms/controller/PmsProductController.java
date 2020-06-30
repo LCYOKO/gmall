@@ -4,8 +4,10 @@ package com.xiaomi.admin.web.pms.controller;
 
 import com.xiaomi.common.CommonResult;
 import com.xiaomi.common.pms.PmsProductQueryParam;
+import com.xiaomi.pms.service.ProductService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
@@ -22,7 +24,8 @@ import java.util.Map;
 @Api(tags = "PmsProductController", description = "商品管理")
 @RequestMapping("/product")
 public class PmsProductController {
-
+    @Reference()
+    private ProductService productService;
 
 //    @ApiOperation("创建商品")
 //    @PostMapping(value = "/create")
@@ -49,17 +52,16 @@ public class PmsProductController {
 //        return new CommonResult().success(null);
 //    }
 
-//    @ApiOperation("查询商品")
-//    @GetMapping(value = "/list")
-//    public Object getList(PmsProductQueryParam productQueryParam) {
-//
-//
-//        //TODO 分页查询商品
-//        Map<String,Object> pageInfo = productService.getList(productQueryParam.getPageSize(),productQueryParam.getPageNum(),productQueryParam.getKeyword(),productQueryParam.getProductSn(),productQueryParam.getPublishStatus()
-//         ,productQueryParam.getVerifyStatus(),productQueryParam.getProductCategoryId(),productQueryParam.getBrandId());
-//        return new CommonResult().success(pageInfo);
-//    }
-//
+    @ApiOperation("查询商品")
+    @GetMapping(value = "/list")
+    public Object getList(PmsProductQueryParam productQueryParam) {
+
+
+        //TODO 分页查询商品
+        Map<String,Object> pageInfo = productService.getList(productQueryParam);
+        return new CommonResult().success(pageInfo);
+    }
+
 //    @ApiOperation("根据商品名称或货号模糊查询")
 //    @GetMapping(value = "/simpleList")
 //    public Object getList(String  keyword) {

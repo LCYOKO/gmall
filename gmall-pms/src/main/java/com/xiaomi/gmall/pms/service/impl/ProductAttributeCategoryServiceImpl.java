@@ -1,9 +1,10 @@
 package com.xiaomi.gmall.pms.service.impl;
 
-import com.xiaomi.gmall.pms.entity.ProductAttributeCategory;
+import com.xiaomi.pms.entity.ProductAttributeCategory;
 import com.xiaomi.gmall.pms.mapper.ProductAttributeCategoryMapper;
-import com.xiaomi.gmall.pms.service.ProductAttributeCategoryService;
+
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.xiaomi.pms.service.ProductAttributeCategoryService;
 import org.springframework.stereotype.Service;
 
 /**

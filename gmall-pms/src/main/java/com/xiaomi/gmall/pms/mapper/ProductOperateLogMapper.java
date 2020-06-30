@@ -1,6 +1,6 @@
 package com.xiaomi.gmall.pms.mapper;
 
-import com.xiaomi.gmall.pms.entity.ProductOperateLog;
+import com.xiaomi.pms.entity.ProductOperateLog;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

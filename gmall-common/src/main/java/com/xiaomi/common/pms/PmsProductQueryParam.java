@@ -3,11 +3,13 @@ package com.xiaomi.common.pms;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * 产品查询参数
  */
 @Data
-public class PmsProductQueryParam {
+public class PmsProductQueryParam implements Serializable {
 
     private Integer publishStatus;
 

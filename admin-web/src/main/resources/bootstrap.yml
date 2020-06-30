@@ -12,7 +12,7 @@ dubbo:
   registry:
     address: spring-cloud://localhost
   cloud:
-    subscribed-services: gmall-ums
+    subscribed-services: gmall-ums,gmall-pms
   consumer:
     check: false
 

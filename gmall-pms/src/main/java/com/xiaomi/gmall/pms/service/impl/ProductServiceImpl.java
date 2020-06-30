@@ -1,17 +1,18 @@
 package com.xiaomi.gmall.pms.service.impl;
 
+
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.sun.javafx.collections.MappingChange;
-import com.xiaomi.common.PageInfo;
 import com.xiaomi.common.pms.PmsProductQueryParam;
-import com.xiaomi.gmall.pms.entity.Product;
+import com.xiaomi.pms.entity.Product;
 import com.xiaomi.gmall.pms.mapper.ProductMapper;
-import com.xiaomi.gmall.pms.service.ProductService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+
+import com.xiaomi.pms.service.ProductService;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.stereotype.Service;
+import org.apache.dubbo.config.annotation.Service;
+
 
 import java.util.HashMap;
 import java.util.Map;
@@ -25,7 +26,7 @@ import java.util.Map;
  * @since 2020-02-25
  */
 @Service
-public class ProductServiceImpl extends ServiceImpl<ProductMapper, Product> implements ProductService {
+public  class ProductServiceImpl extends ServiceImpl<ProductMapper, Product> implements ProductService {
 
     @Override
     public Map getList(PmsProductQueryParam queryParam) {

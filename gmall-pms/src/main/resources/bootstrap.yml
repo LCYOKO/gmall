@@ -8,7 +8,18 @@ spring:
         file-extension: yml
   profiles:
     active: dev
+  main:
+    allow-bean-definition-overriding: true
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   mapper-locations: classpath:xml/*.xml
+dubbo:
+  registry:
+    address: spring-cloud://localhost
+  protocol:
+    port: -1
+    name: dubbo
+  scan:
+    base-packages: com.xiaomi.gmall.pms.service
+

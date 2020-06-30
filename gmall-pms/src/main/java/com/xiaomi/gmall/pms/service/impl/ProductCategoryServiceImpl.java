@@ -1,13 +1,15 @@
 package com.xiaomi.gmall.pms.service.impl;
 
 import com.xiaomi.common.constant.SysConstant;
-import com.xiaomi.gmall.pms.entity.ProductCategory;
+
 import com.xiaomi.gmall.pms.mapper.ProductCategoryMapper;
-import com.xiaomi.gmall.pms.service.ProductCategoryService;
+
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.xiaomi.pms.entity.ProductCategory;
+import com.xiaomi.pms.service.ProductCategoryService;
+import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -25,10 +27,10 @@ public class ProductCategoryServiceImpl extends ServiceImpl<ProductCategoryMappe
      private RedisTemplate redisTemplate;
     @Override
     public List selWithChildren(Long id) {
-        Object cache=redisTemplate.opsForValue().get(SysConstant.SYS_MEN_CACHE_KEY);
-        if(cache!=null){
-            return (List<ProductCategory>)cache;
-        }
+//        Object cache=redisTemplate.opsForValue().get(SysConstant.SYS_MEN_CACHE_KEY);
+//        if(cache!=null){
+//            return (List<ProductCategory>)cache;
+//        }
         List<ProductCategory> list = this.baseMapper.selWithChildren(id);
         redisTemplate.opsForValue().set(SysConstant.SYS_MEN_CACHE_KEY,list);
         return list;

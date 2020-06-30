@@ -7,7 +7,7 @@
         id, parent_id, name, level, product_count, product_unit, nav_status, show_status, sort, icon, keywords, description
     </sql>
 
-    <resultMap id="BaseMap" type="com.xiaomi.gmall.pms.entity.ProductCategory">
+    <resultMap id="BaseMap" type="com.xiaomi.pms.entity.ProductCategory">
        <result property="id" column="id"></result>
        <result property="parentId" column="parent_id"></result>
         <result property="name" column="name"></result>
@@ -21,7 +21,7 @@
         <result property="keywords" column="keywords"></result>
         <result property="description" column="description"></result>
     </resultMap>
-    <resultMap id="WithChildren" type="com.xiaomi.gmall.pms.entity.ProductCategory" extends="BaseMap">
+    <resultMap id="WithChildren" type="com.xiaomi.pms.entity.ProductCategory" extends="BaseMap">
         <collection property="children" column="id" select="selWithChildren"></collection>
     </resultMap>
     <select id="selWithChildren" resultMap="WithChildren">

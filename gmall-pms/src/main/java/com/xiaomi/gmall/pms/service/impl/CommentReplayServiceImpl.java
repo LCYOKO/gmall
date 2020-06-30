@@ -1,9 +1,9 @@
 package com.xiaomi.gmall.pms.service.impl;
 
-import com.xiaomi.gmall.pms.entity.CommentReplay;
+import com.xiaomi.pms.entity.CommentReplay;
 import com.xiaomi.gmall.pms.mapper.CommentReplayMapper;
-import com.xiaomi.gmall.pms.service.CommentReplayService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.xiaomi.pms.service.CommentReplayService;
 import org.springframework.stereotype.Service;
 
 /**

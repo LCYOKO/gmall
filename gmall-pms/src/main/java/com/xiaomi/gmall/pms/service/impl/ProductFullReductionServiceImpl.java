@@ -1,9 +1,10 @@
 package com.xiaomi.gmall.pms.service.impl;
 
-import com.xiaomi.gmall.pms.entity.ProductFullReduction;
+import com.xiaomi.pms.entity.ProductFullReduction;
 import com.xiaomi.gmall.pms.mapper.ProductFullReductionMapper;
-import com.xiaomi.gmall.pms.service.ProductFullReductionService;
+//import com.xiaomi.gmall.pms.service.ProductFullReductionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.xiaomi.pms.service.ProductFullReductionService;
 import org.springframework.stereotype.Service;
 
 /**

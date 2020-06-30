@@ -1,9 +1,10 @@
 package com.xiaomi.gmall.pms.service.impl;
 
-import com.xiaomi.gmall.pms.entity.ProductOperateLog;
+import com.xiaomi.pms.entity.ProductOperateLog;
 import com.xiaomi.gmall.pms.mapper.ProductOperateLogMapper;
-import com.xiaomi.gmall.pms.service.ProductOperateLogService;
+//import com.xiaomi.gmall.pms.service.ProductOperateLogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.xiaomi.pms.service.ProductOperateLogService;
 import org.springframework.stereotype.Service;
 
 /**

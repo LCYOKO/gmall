@@ -1,9 +1,10 @@
 package com.xiaomi.gmall.pms.service.impl;
 
-import com.xiaomi.gmall.pms.entity.AlbumPic;
+import com.xiaomi.pms.entity.AlbumPic;
 import com.xiaomi.gmall.pms.mapper.AlbumPicMapper;
-import com.xiaomi.gmall.pms.service.AlbumPicService;
+
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.xiaomi.pms.service.AlbumPicService;
 import org.springframework.stereotype.Service;
 
 /**

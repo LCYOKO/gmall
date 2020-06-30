@@ -1,6 +1,6 @@
 package com.xiaomi.gmall.pms.mapper;
 
-import com.xiaomi.gmall.pms.entity.FeightTemplate;
+import com.xiaomi.pms.entity.FeightTemplate;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

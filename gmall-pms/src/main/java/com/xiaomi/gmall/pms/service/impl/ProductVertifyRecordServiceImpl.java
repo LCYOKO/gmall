@@ -1,9 +1,10 @@
 package com.xiaomi.gmall.pms.service.impl;
 
-import com.xiaomi.gmall.pms.entity.ProductVertifyRecord;
+import com.xiaomi.pms.entity.ProductVertifyRecord;
 import com.xiaomi.gmall.pms.mapper.ProductVertifyRecordMapper;
-import com.xiaomi.gmall.pms.service.ProductVertifyRecordService;
+
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.xiaomi.pms.service.ProductVertifyRecordService;
 import org.springframework.stereotype.Service;
 
 /**

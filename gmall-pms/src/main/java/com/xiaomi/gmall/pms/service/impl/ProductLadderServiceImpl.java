@@ -1,9 +1,10 @@
 package com.xiaomi.gmall.pms.service.impl;
 
-import com.xiaomi.gmall.pms.entity.ProductLadder;
+import com.xiaomi.pms.entity.ProductLadder;
 import com.xiaomi.gmall.pms.mapper.ProductLadderMapper;
-import com.xiaomi.gmall.pms.service.ProductLadderService;
+//import com.xiaomi.gmall.pms.service.ProductLadderService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.xiaomi.pms.service.ProductLadderService;
 import org.springframework.stereotype.Service;
 
 /**

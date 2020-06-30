@@ -2,8 +2,12 @@ package com.xiaomi.admin.web.pms.controller;
 
 
 import com.xiaomi.common.CommonResult;
+import com.xiaomi.common.param.PmsBrandParam;
+import com.xiaomi.pms.service.BrandService;
 import io.swagger.annotations.Api;
 
+import io.swagger.annotations.ApiOperation;
+import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -18,9 +22,8 @@ import java.util.Map;
 @Api(tags = "PmsBrandController",description = "商品品牌管理")
 @RequestMapping("/brand")
 public class PmsBrandController {
-//
-//     @Autowired
-//     private ProductService productService;
+   @Reference
+    private BrandService brandService;
 //    @ApiOperation(value = "获取全部品牌列表")
 //    @GetMapping(value = "/listAll")
 //    public Object getList() {
@@ -60,17 +63,15 @@ public class PmsBrandController {
 //        return commonResult;
 //    }
 //
-//    @ApiOperation(value = "根据品牌名称分页获取品牌列表")
-//    @GetMapping(value = "/list")
-//    public Object getList(@RequestParam(value = "keyword", required = false) String keyword,
-//                            @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum,
-//                            @RequestParam(value = "pageSize", defaultValue = "5") Integer pageSize) {
-//
-//        // 根据品牌名称分页获取品牌列表
-//        Map<String,Object> brandPageInfo =  brandService.pageBrand(keyword,pageNum,pageSize);
-//
-//        return new CommonResult().success(brandPageInfo);
-//    }
+    @ApiOperation(value = "根据品牌名称分页获取品牌列表")
+    @GetMapping(value = "/list")
+    public Object getList(PmsBrandParam param) {
+
+        // 根据品牌名称分页获取品牌列表
+        Map<String,Object> brandPageInfo =  brandService.getList(param);
+
+        return new CommonResult().success(brandPageInfo);
+    }
 //
 //    @ApiOperation(value = "根据编号查询品牌信息")
 //    @GetMapping(value = "/{id}")

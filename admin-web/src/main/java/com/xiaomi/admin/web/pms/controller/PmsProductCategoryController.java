@@ -3,8 +3,11 @@ package com.xiaomi.admin.web.pms.controller;
 
 
 import com.xiaomi.common.CommonResult;
+import com.xiaomi.pms.service.ProductCategoryService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+
+import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
@@ -20,8 +23,8 @@ import java.util.List;
 @Api(tags = "PmsProductCategoryController", description = "商品分类管理")
 @RequestMapping("/productCategory")
 public class PmsProductCategoryController {
-//    @Autowired
-//    private ProductService productService;
+      @Reference
+      private ProductCategoryService productCategoryService;
 //    @ApiOperation("添加产品分类")
 //    @PostMapping(value = "/create")
 //    public Object create(@Validated @RequestBody PmsProductCategoryParam productCategoryParam,
@@ -77,12 +80,12 @@ public class PmsProductCategoryController {
 //        return new CommonResult().success(null);
 //    }
 //
-//    @ApiOperation("查询所有一级分类及子分类[有难度]")
-//    @GetMapping(value = "/list/withChildren")
-//    public Object listWithChildren() {
-//
-//        //查询所有一级分类及子分类
-//
-//        return new CommonResult().success(productService.getCategoryWithChildren(0L));
-//    }
+    @ApiOperation("查询所有一级分类及子分类[有难度]")
+    @GetMapping(value = "/list/withChildren")
+    public Object listWithChildren() {
+
+        //查询所有一级分类及子分类
+          System.out.println(productCategoryService);
+        return new CommonResult().success(productCategoryService.selWithChildren(0L));
+    }
 }

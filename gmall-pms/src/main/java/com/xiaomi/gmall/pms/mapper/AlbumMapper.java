@@ -1,7 +1,8 @@
 package com.xiaomi.gmall.pms.mapper;
 
-import com.xiaomi.gmall.pms.entity.Album;
+
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.xiaomi.pms.entity.Album;
 
 /**
  * <p>

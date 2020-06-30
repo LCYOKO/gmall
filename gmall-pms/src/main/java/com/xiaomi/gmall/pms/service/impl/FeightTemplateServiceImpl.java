@@ -1,9 +1,9 @@
 package com.xiaomi.gmall.pms.service.impl;
 
-import com.xiaomi.gmall.pms.entity.FeightTemplate;
+import com.xiaomi.pms.entity.FeightTemplate;
 import com.xiaomi.gmall.pms.mapper.FeightTemplateMapper;
-import com.xiaomi.gmall.pms.service.FeightTemplateService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.xiaomi.pms.service.FeightTemplateService;
 import org.springframework.stereotype.Service;
 
 /**

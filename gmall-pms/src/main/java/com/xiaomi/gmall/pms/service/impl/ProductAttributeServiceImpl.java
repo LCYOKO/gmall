@@ -1,9 +1,9 @@
 package com.xiaomi.gmall.pms.service.impl;
 
-import com.xiaomi.gmall.pms.entity.ProductAttribute;
+import com.xiaomi.pms.entity.ProductAttribute;
 import com.xiaomi.gmall.pms.mapper.ProductAttributeMapper;
-import com.xiaomi.gmall.pms.service.ProductAttributeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.xiaomi.pms.service.ProductAttributeService;
 import org.springframework.stereotype.Service;
 
 /**

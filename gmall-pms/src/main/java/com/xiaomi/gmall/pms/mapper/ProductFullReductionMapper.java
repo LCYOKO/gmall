@@ -1,6 +1,6 @@
 package com.xiaomi.gmall.pms.mapper;
 
-import com.xiaomi.gmall.pms.entity.ProductFullReduction;
+import com.xiaomi.pms.entity.ProductFullReduction;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

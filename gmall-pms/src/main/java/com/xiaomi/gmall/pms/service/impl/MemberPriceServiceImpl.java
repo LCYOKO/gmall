@@ -1,9 +1,9 @@
 package com.xiaomi.gmall.pms.service.impl;
 
-import com.xiaomi.gmall.pms.entity.MemberPrice;
+import com.xiaomi.pms.entity.MemberPrice;
 import com.xiaomi.gmall.pms.mapper.MemberPriceMapper;
-import com.xiaomi.gmall.pms.service.MemberPriceService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.xiaomi.pms.service.MemberPriceService;
 import org.springframework.stereotype.Service;
 
 /**

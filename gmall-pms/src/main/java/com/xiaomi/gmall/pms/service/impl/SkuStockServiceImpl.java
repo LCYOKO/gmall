@@ -1,9 +1,10 @@
 package com.xiaomi.gmall.pms.service.impl;
 
-import com.xiaomi.gmall.pms.entity.SkuStock;
+import com.xiaomi.pms.entity.SkuStock;
 import com.xiaomi.gmall.pms.mapper.SkuStockMapper;
-import com.xiaomi.gmall.pms.service.SkuStockService;
+
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.xiaomi.pms.service.SkuStockService;
 import org.springframework.stereotype.Service;
 
 /**
