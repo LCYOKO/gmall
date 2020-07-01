@@ -17,4 +17,5 @@ import java.util.Map;
 public interface BrandService extends IService<Brand> {
 
     Map<String,Object> getList(PmsBrandParam param);
+    Brand  selById(Long id);
 }

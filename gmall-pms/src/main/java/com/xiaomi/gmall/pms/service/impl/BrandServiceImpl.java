@@ -35,4 +35,9 @@ public class BrandServiceImpl extends ServiceImpl<BrandMapper, Brand> implements
         map.put("list",iPage.getRecords());
         return map;
     }
+
+    @Override
+    public Brand selById(Long id) {
+        return this.baseMapper.selectById(id);
+    }
 }

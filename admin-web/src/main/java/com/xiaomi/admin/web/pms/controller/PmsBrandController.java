@@ -8,6 +8,8 @@ import io.swagger.annotations.Api;
 
 import io.swagger.annotations.ApiOperation;
 import org.apache.dubbo.config.annotation.Reference;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -32,36 +34,35 @@ public class PmsBrandController {
 //        return new CommonResult().success(productService.getAllBrandList());
 //    }
 //
-//    @ApiOperation(value = "添加品牌")
-//    @PostMapping(value = "/create")
-//    public Object create(@Valid @RequestBody PmsBrandParam pmsBrand, BindingResult result) {
-//        CommonResult commonResult = new CommonResult();
-//        //TODO 添加品牌
+    @ApiOperation(value = "添加品牌")
+    @PostMapping(value = "/create")
+    public Object create( @RequestBody PmsBrandParam pmsBrand, BindingResult result) {
+        CommonResult commonResult = new CommonResult();
+        //TODO 添加品牌
+
+        return commonResult;
+    }
 //
-//        return commonResult;
-//    }
+    @ApiOperation(value = "更新品牌")
+    @PostMapping(value = "/update/{id}")
+    public Object update(@PathVariable("id") Long id,
+                               @RequestBody PmsBrandParam pmsBrandParam) {
+        CommonResult commonResult = new CommonResult();
+
+        //TODO 更新品牌
+
+        return commonResult;
+    }
 //
-//    @ApiOperation(value = "更新品牌")
-//    @PostMapping(value = "/update/{id}")
-//    public Object update(@PathVariable("id") Long id,
-//                              @Validated @RequestBody PmsBrandParam pmsBrandParam,
-//                              BindingResult result) {
-//        CommonResult commonResult = new CommonResult();
-//
-//        //TODO 更新品牌
-//
-//        return commonResult;
-//    }
-//
-//    @ApiOperation(value = "删除品牌")
-//    @GetMapping(value = "/delete/{id}")
-//    public Object delete(@PathVariable("id") Long id) {
-//        CommonResult commonResult = new CommonResult();
-//
-//        //TODO 删除品牌
-//
-//        return commonResult;
-//    }
+    @ApiOperation(value = "删除品牌")
+    @GetMapping(value = "/delete/{id}")
+    public Object delete(@PathVariable("id") Long id) {
+        CommonResult commonResult = new CommonResult();
+
+        //TODO 删除品牌
+
+        return commonResult;
+    }
 //
     @ApiOperation(value = "根据品牌名称分页获取品牌列表")
     @GetMapping(value = "/list")
@@ -72,26 +73,25 @@ public class PmsBrandController {
 
         return new CommonResult().success(brandPageInfo);
     }
-//
-//    @ApiOperation(value = "根据编号查询品牌信息")
-//    @GetMapping(value = "/{id}")
-//    public Object getItem(@PathVariable("id") Long id) {
-//        CommonResult commonResult = new CommonResult();
-//        //TODO 根据编号查询品牌信息
-//
-//
-//        return commonResult;
-//    }
-//
-//    @ApiOperation(value = "批量删除品牌")
-//    @PostMapping(value = "/delete/batch")
-//    public Object deleteBatch(@RequestParam("ids") List<Long> ids) {
-//        CommonResult commonResult = new CommonResult();
-//        //TODO 批量删除品牌
-//
-//
-//        return commonResult;
-//    }
+
+    @ApiOperation(value = "根据编号查询品牌信息")
+    @GetMapping(value = "/{id}")
+    public Object getItem(@PathVariable("id") Long id) {
+
+        CommonResult commonResult = new CommonResult().success(brandService.selById(id));
+        //TODO 根据编号查询品牌信息
+
+
+        return commonResult;
+    }
+
+    @ApiOperation(value = "批量删除品牌")
+    @PostMapping(value = "/delete/batch")
+    public Object deleteBatch(@RequestParam("ids") List<Long> ids) {
+        CommonResult commonResult = new CommonResult();
+        //TODO 批量删除品牌
+        return commonResult;
+    }
 //
 //    @ApiOperation(value = "批量更新显示状态")
 //    @PostMapping(value = "/update/showStatus")
